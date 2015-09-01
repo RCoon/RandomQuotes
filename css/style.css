@@ -4,7 +4,7 @@ body {
   margin: 0px auto;
   background-color: #cdcdcd;
   font-family: 'Lora', serif;
-  background: url(https://github.com/subtlepatterns/SubtlePatterns/blob/gh-pages/black-Linen.png?raw=true)
+  background: url('css_img/black-Linen.png')
 }
 
 h1 {
@@ -32,6 +32,10 @@ p {
   font-size: 24px;
   border-radius: 15px;
   box-shadow: -5px 5px 10px #aaa;
+}
+
+button:focus {
+  outline:0;
 }
 
 .quote {
